@@ -1,0 +1,18 @@
+PERSON_BEGIN phoenix
+
+filename(Images/phoenix-sheet.png)
+
+EMOTE_BEGIN normal
+
+    frames(
+    171 204 126 142,
+    326 204 126 142
+    )
+    
+    idle(24 204 126 142)
+    
+    blink()
+    
+EMOTE_END
+
+PERSON_END
