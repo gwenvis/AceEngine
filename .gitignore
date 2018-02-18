@@ -1,0 +1,8 @@
+.idea/
+obj/
+bin/
+
+# Don't bring the illegal copyrighted image files along you idiot!
+
+Images/
+
