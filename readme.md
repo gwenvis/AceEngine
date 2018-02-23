@@ -57,8 +57,11 @@ Ace Attorney depends on [MagickSharp](https://github.com/stepperman/MagickSharp)
 which is a cross-platform [Magick.Net](https://github.com/dlemstra/Magick.NET) remake I made to learn C and to allow .NET and ImageMagick on other platforms. Magick.Net is capable of this now as well, although using it on Linux or macOS requires exta work.  
 Or just call MagickSharp a ImageMagick/MagickWand wrapper. Which it is. 
 
-I feel like using an image suite for a simple task of generating a frame and saving it is stupid. So I will probably switch this over to a faster and other graphics library.  
-Something like OpenGL (help) or a wrapper of it. I think this would make it much quicker to export.
+~~I feel like using an image suite for a simple task of generating a frame and saving it is stupid. So I will probably switch this over to a faster and other graphics library.  
+Something like OpenGL (help) or a wrapper of it. I think this would make it much quicker to export.~~
+
+I am currently working on making a C library for making frames and saving them as a gif instead of using ImageMagick.  
+There is probably a .NET graphics library I could use but I want to see how fast it can get if I make a "native" library, since I want the gifs to be as small as possible, and be generated _really_ quickly. I'll make a speed comparison if I get version 1.0 finished to see how much the speed difference is between a .NET graphics library and a native custom written SDL library.
 
 ## Planned features
 
@@ -68,6 +71,7 @@ But I'll also expand on this project some more, like including a complete scene 
 ### Version 1.0 
 Striped through is added.
 
+ * Use SDL for image processing instead of ImageMagick
  * Text engine
  * ~~Exporting dialogue as gif~~
  * Actions in the text engine
