@@ -17,9 +17,6 @@ The **main goal** is to be able to have a single character of your choosing have
 together with the ability of throwing around different animations, delays, screen flashes, screen shakes and other effects
 such as objection or other character specific text bubbles. 
 
-This will then be made into a **discord bot**. Which won't be open-sourced, but you can easily bind this program to anything else.  
-Be it a console application that feeds a string to a functions that generates the gif and returns it.
-
 ## Usage (unusable at the moment)
 
 This is unusable at the moment but this function will be how you will use AceEngine in **code**.  
